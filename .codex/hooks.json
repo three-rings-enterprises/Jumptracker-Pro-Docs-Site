@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/opt/homebrew/bin/node\" \"/Users/josephpascucci/Documents/GitHub/Jumptracker-Pro-Docs-Site/.codex/hooks/gsd-check-update.js\""
+          }
+        ]
+      }
+    ]
+  }
+}
