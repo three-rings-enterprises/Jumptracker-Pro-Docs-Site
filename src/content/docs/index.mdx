@@ -1,0 +1,19 @@
+---
+title: JumpTracker Pro
+description: Guides and case studies for getting more out of JumpTracker Pro.
+template: splash
+hero:
+  tagline: Explanations of the technical parts of the app, and real-world case studies.
+  actions:
+    - text: Get started
+      link: /start/welcome/
+      icon: right-arrow
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <LinkCard title="Start Here" description="A quick orientation to the app." href="/start/welcome/" />
+  <LinkCard title="Technical Guides" description="How the more technical features work." href="/technical/how-totals-are-calculated/" />
+  <LinkCard title="Case Studies" description="See how different people use JumpTracker Pro." href="/case-studies/example-case-study/" />
+</CardGrid>
