@@ -1,3 +1,7 @@
+## The App Being Documented
+
+This site documents the JumpTracker Pro app, located at `/Users/josephpascucci/GitHub/JumpTracker-Pro-App`. Consult that codebase to verify features and behavior when writing or updating docs.
+
 ## Development
 
 When starting the dev server, use background mode:
