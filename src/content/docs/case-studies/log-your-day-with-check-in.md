@@ -3,15 +3,15 @@ title: Log Your Day with a Check In
 description: Clock your hours and log jumps as you go by starting each day with a zero-dollar Check in service.
 ---
 
-Want JumpTracker Pro to know how long your day was, not just what you earned? This case study shows a simple routine: start the day with a **Check in**, log jumps as they happen, and close out the day with your end time and final counts.
+Want JumpTracker Pro to track hourly earnings, not just jump metrics? This case study shows a simple routine: start the day with a **Check in**, log jumps as they happen, and close out the day with your end time and final counts.
 
 **The scenario:** a tandem instructor working a full day at the dropzone who wants accurate hours, per-jump details and a day total, without remembering everything at the end of the day.
 
 ## The idea
 
-JumpTracker Pro can store a start and end time on any logged day and works out your total hours for you. Tracking hours also gives let's you calculate your average hourly pay rate, a useful metric to know. 
+JumpTracker Pro can store a start and end time on any logged day and works out your total hours for you. Tracking hours also let's you calculate your average hourly pay rate, a useful metric to know. 
 
-To start the clock the moment you arrive, you log a service that costs nothing: a **Check in**. Everything else you log that day lands on the same day in your Logbook.
+To clock your check in time when you arrive, you log a service with zero pay: a **Check in**. This locks the start time and everything else you log that day lands on the same day in your Logbook.
 
 ## Step 1: Add a Check in service
 
@@ -25,31 +25,33 @@ You only do this once per location.
 
 ![The Add New Service form filled in with a Check in service, Misc category, Other type and a base rate of 0](../../../assets/log-with-check-in/step-1-add-check-in-service.png)
 
-Because the rate is $0, checking in never changes your earnings. It exists only to open your day.
+Because the rate is $0, checking in never changes your earnings. It exists only to lock your start time.
 
 ## Step 2: Check in when you arrive
 
-When you get to the dropzone, open **Log Day**, confirm the date and location, and set your **Start Time**. Under **Misc**, tap **+** once on **Check in**, then tap **Log Services**.
+When you get to the dropzone, open **Log Day**, confirm the date and location, and set your **Start Time**. Leave **End Time** empty for now. You'll update it later.
 
 ![The Log Day screen with a start time of 9:14 AM and Check in set to 1](../../../assets/log-with-check-in/step-2-check-in-start-time.png)
 
-Leave **End Time** empty for now. You don't know it yet.
-
-## Step 3: Log jumps as you go
+## Step 3: Logging jumps
 
 Pick whichever of these fits how you work. You can mix them during the same day.
 
-### Option A: Log single jumps
+### Scenario A: Log single jumps
 
 After each jump, open **Log New Service** and choose the service. Add any **Modifiers** that applied (in this example a dual handcam and a variable overage amount), plus **Tips** and **Service Notes** if you like.
 
 ![The Log New Service screen with Jump Only selected, Dual Handcam and Overage modifiers checked, and an overage of $15.00](../../../assets/log-with-check-in/step-3-1-log-single-jump.png)
 
-The overage modifier is **Variable**, so you type the amount for that jump. The service's **Info** text (here, "$1/lb over 200 lbs") appears under it as a reminder.
+In this example I've got a **Variable** overage, and I've added a memo on that service's **Info** field to remember how the dropzone pays out for it.
 
-### Option B: Log it all later and use Day Notes
+### Scenario B: Bulk log at the end of the day
 
-If you'd rather not touch your phone between loads, or you plan to [import your Burble logbook](/technical/import-burble-logbook/) afterward, jot short notes during the day. In the day's **Day Notes** field, write one line per jump (for example altitude, student and video details) so you can reconcile them later.
+If you prefer to just log everything at the end of the day via the **Log Day** form, skip to step 4.
+
+### Scenario C: Use Day Notes and import a Burble CSV afterwards
+
+If you plan to [import your Burble logbook](/technical/import-burble-logbook/) afterward, jot short notes during the day. In the day's **Day Notes** field, write one line per jump (for example, load number, altitude, jump and video details) so you can reconcile them later.
 
 ![The Day Notes field with two short lines of notes for two jumps](../../../assets/log-with-check-in/step-3-2-day-notes.png)
 
@@ -58,7 +60,7 @@ If you'd rather not touch your phone between loads, or you plan to [import your 
 At the end of the day, go back to your Logbook and edit the day.
 
 1. Find today's entry and tap the **⋮** menu.
-2. Choose **Edit Day**. (The same menu has **Mark All Paid**, **Mark All Pending** and **Delete Day**.)
+2. Choose **Edit Day**.
 
 ![The Logbook with the day menu open showing Edit Day, Mark All Paid, Mark All Pending and Delete Day](../../../assets/log-with-check-in/step-4-1-edit-day-menu.png)
 
@@ -67,15 +69,14 @@ At the end of the day, go back to your Logbook and edit the day.
 
 ![The Edit Day screen with a 9:14 AM start, 4:25 PM end, 7.2 total hours, Check in at 1 and Jump Only at 6](../../../assets/log-with-check-in/step-4-2-edit-day-end-time.png)
 
-In this example the day ran from 9:14 AM to 4:25 PM, which comes to **7.2 hours**, with one check in and six Jump Only tandems.
-
 ## What you end up with
 
 - One Logbook entry for the day, with your start and end times and total hours.
 - Your final jump counts and earnings, plus tips and notes.
 - No extra pay from the Check in itself, since it's $0.
+- A **Summary** page that tracks your average hourly earnings as well as other metrics.
 
 ## Tips
 
-- Start the day with the Check in even if you log nothing else until evening. It's what records your start time.
-- Check in and Edit Day times are optional. If you forget, you can still add them later from **Edit Day**.
+- Start the day with the Check in even if you log nothing else until evening. It's what records your start time so you don't have to remember it.
+- Checking in and closing out the day when it actually occurs makes it easy to punch the right time. If you forget, you can still add them later from **Edit Day**.
