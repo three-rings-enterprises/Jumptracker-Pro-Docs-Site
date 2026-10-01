@@ -37,7 +37,10 @@ A squash merge gives `main` a new commit that `develop` doesn't have, so the two
 git checkout main
 git pull
 git checkout -B develop
+git push --force-with-lease origin develop
 ```
+
+The last line is needed because `origin/develop` still holds the pre-squash commits. Without it, Git reports `develop` as ahead 1 and behind N. That is expected after a squash merge, and force-pushing is safe here because `develop` is a personal branch.
 
 ## Undoing a change
 
