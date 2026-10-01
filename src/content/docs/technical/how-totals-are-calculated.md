@@ -1,6 +1,8 @@
 ---
 title: How Jump Counts and Totals Are Calculated
 description: Why your jump count, service counts and earnings can differ, and what each number includes.
+sidebar:
+  order: 10
 ---
 
 JumpTracker Pro shows counts and earnings on the dashboard, in the Summary page and on invoices. They come from a few simple rules. Once you know them, the numbers make sense.

@@ -1,6 +1,8 @@
 ---
 title: Import Your Burble Logbook
 description: Bring your Burble Transaction History into JumpTracker Pro, step by step, and undo it if something looks wrong.
+sidebar:
+  order: 20
 ---
 
 If your dropzone uses Burble to track jumps, you can export your history from Burble and bring it into JumpTracker Pro instead of typing it in again. It's also a quick way to set up a new dropzone. This guide walks through the import from start to finish.

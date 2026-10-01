@@ -1,6 +1,8 @@
 ---
 title: Log Your Day with a Check In
 description: Clock your hours and log jumps as you go by starting each day with a zero-dollar Check in service.
+sidebar:
+  order: 10
 ---
 
 Want JumpTracker Pro to track hourly earnings, not just jump metrics? This case study shows a simple routine: start the day with a **Check in**, log jumps as they happen, and close out the day with your end time and final counts.

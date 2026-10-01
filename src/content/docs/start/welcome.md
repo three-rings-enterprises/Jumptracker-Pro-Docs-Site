@@ -1,6 +1,8 @@
 ---
 title: Welcome to JumpTracker Pro Help
 description: What JumpTracker Pro does, what this help site covers, and where to start.
+sidebar:
+  order: 10
 ---
 
 JumpTracker Pro is a mobile-first app for professional skydivers. It replaces spreadsheets and paper logs with one place to record your work, track what you're owed, and send invoices.
