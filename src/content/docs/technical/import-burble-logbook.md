@@ -51,6 +51,20 @@ For imports where the dropzone is already set up, the **Amount** in your file is
 
 If this is the first time setup import, the services created will be set from Burble's import file and future logging via the app will use those amounts.
 
+### If a day already has data
+
+If you already have jumps or a work session logged at that location on a date in your file, you are asked what to do for each of those days: 
+
+| Choice | What happens |
+|---|---|
+| **Match (skip this day)** | Your existing data is left alone. Nothing from the file is added for that day |
+| **Merge (add alongside)** | The file's jumps are added next to what is already logged |
+| **Replace (remove and re-import)** | The existing jump entries for that day are removed and replaced with the file's entries. Session time, tips and notes are kept |
+
+You can apply one choice to all flagged days at once.
+
+**Be careful with Replace.** With Bulk Day Entry, Replace also replaces that day's session time, tips and notes with what is in your file. It does not keep them. Replace also cannot be undone later. If you are unsure, export a backup first.
+
 ## If something looks wrong: undo
 
 Every import is saved as a batch. To remove one:

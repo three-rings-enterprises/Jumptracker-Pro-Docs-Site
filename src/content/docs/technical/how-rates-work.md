@@ -2,7 +2,7 @@
 title: How Rates Are Set, Captured and Updated
 description: Where your rates live, when an amount is locked in on a logged jump, and what happens to your logbook when you change a rate.
 sidebar:
-  order: 40
+  order: 11
 ---
 
 Every jump you log has a dollar amount. This guide explains where that amount comes from, when it gets locked in, and what happens to past entries when you change a rate later. If you only read one thing, read the next section.
