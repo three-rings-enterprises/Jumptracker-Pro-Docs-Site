@@ -5,7 +5,7 @@ How changes get from `develop` to `main` on this site, and how to undo them.
 **Goal:** every change on `main` is one commit that is easy to find and easy to undo.
 
 **Branches**
-- `main`: the published site. Only changes arrive here through a squash-merged PR.
+- `main`: the published site. Changes normally arrive through a squash-merged PR, or [directly](#publishing-straight-to-main-no-pr) for small fixes.
 - `develop`: where work happens.
 
 ## Shipping a change
@@ -28,6 +28,39 @@ How changes get from `develop` to `main` on this site, and how to undo them.
    gh pr merge --squash
    ```
    Squashing turns the whole PR into a single commit on `main`.
+
+## Publishing straight to `main` (no PR)
+
+For a small or urgent change, you can skip the PR and put it on `main` yourself. Keep the "one commit per change" goal by squashing locally.
+
+**Option A: squash `develop` into `main`**
+
+```
+git checkout main
+git pull
+git merge --squash develop
+git commit -m "docs: short description of the change"
+git push
+```
+
+`git merge --squash` stages the combined changes without committing, so the `git commit` creates the single commit on `main`. Then reset `develop` as described below.
+
+**Option B: commit directly on `main`**
+
+For a tiny fix that doesn't need a branch:
+
+```
+git checkout main
+git pull
+# make your edits
+git add -A
+git commit -m "docs: short description of the change"
+git push
+```
+
+Then bring `develop` up to date (`git checkout develop && git rebase main`) so it doesn't fall behind.
+
+Pushing to `main` publishes the site right away, so run `npx astro build` first. If branch protection blocks direct pushes, use the PR workflow instead. To undo, use `git revert <commit-sha>` as in [Undoing a change](#undoing-a-change).
 
 ## Reset `develop` after every merge
 
