@@ -1,6 +1,8 @@
 ---
 title: Welcome to JumpTracker Pro Help
 description: What JumpTracker Pro does, what this help site covers, and where to start.
+sidebar:
+  order: 1
 ---
 
 JumpTracker Pro is a mobile-first app for professional skydivers. It replaces spreadsheets and paper logs with one place to record your work, track what you're owed, and send invoices.
@@ -26,6 +28,7 @@ This site goes deeper than the app itself. It explains the parts that are easy t
 ## Where to start
 
 - **New to the app?** Set up your locations and services in **Settings**, then log your first day with **Log Day**. The in-app tour can be replayed if you want a walkthrough.
+- **Want a tour of the everyday screens?** See [Dashboard and Logging](/start/dashboard-and-logging/) for the dashboard, logging a day or a single service, and filtering your Logbook.
 - **Does your dropzone use Burble?** Follow [Import Your Burble Logbook](/technical/import-burble-logbook/) to bring your history over and set up a dropzone with the import wizard instead of manually.
 - **Confused by a number on your dashboard or invoice?** See [How Jump Counts and Totals Are Calculated](/technical/how-totals-are-calculated/).
 
