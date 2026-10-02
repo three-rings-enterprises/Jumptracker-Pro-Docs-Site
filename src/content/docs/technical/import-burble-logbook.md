@@ -21,9 +21,9 @@ You need Burble's **Transaction History** export. It is a CSV file with four col
 
 ![The BurbleMe Home screen with Transaction History highlighted](../../../assets/import-burble/burble-home-transaction-history.jpg)
 
-**2. Filter by date.** Tap **Filters** and choose the date range you want to import.
+**2. Filter by date.** Tap **Filters** and choose the date range you want to import. You can import your entire burble history if you'd like.
 
-**3. Choose a tab.** Select **Jumps** if you want detailed notes to come across. Otherwise select the **All** tab.
+**3. Choose the Jumps tab.** 
 
 **4. Download the file.** Tap the download button at the bottom right.
 
@@ -38,6 +38,23 @@ You need Burble's **Transaction History** export. It is a CSV file with four col
 ![The Logbook page with the import menu open, showing Import CSV, Export CSV and View Import History](../../../assets/import-burble/jumptracker-import-menu.jpg)
 
 Then follow the import wizard through the steps presented.
+
+## For a first time setup import
+
+It's recommended to set up as a new dropzone on your first import. This will make sure all your service names map cleanly to burble's item codes, and future imports will be frictionless.
+ 
+1. On the **Choose Location** screen, click **Create a new location instead**
+  
+![The Logbook page with the import menu open, showing Import CSV, Export CSV and View Import History](../../../assets/import-burble/burble-choose-location.png)
+
+2. Give the dropzone a unique name, like "Skydive Jumptracker **Burble**"
+
+![The Logbook page with the import menu open, showing Import CSV, Export CSV and View Import History](../../../assets/import-burble/burble-create-new-location.png)
+
+Then follow the import wizard through the steps presented. 
+
+3. Finish setup by reviewing your dropzone's details on the **settings** page. Add descriptions for services and configure any as variable if necessary.
+4. If you're overriding an old dropzone, clean up any logbook entries from the logbook screen by **filtering for that location**, then delete it's logs. 
 
 ## Some Notes 
 
