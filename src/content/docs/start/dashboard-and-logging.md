@@ -25,7 +25,7 @@ Earnings are your base pay plus tips. If you have pack jobs turned on, a **Pack 
 
 Use **Log Day** when you want to enter a day's work in one go, usually at the end of the day.
 
-![The Log Day form with a date, location, start and end times, Tandem set to 3, Fun Jump set to 2, day notes and tips](../../../assets/dashboard-and-logging/log-day-form.png)
+![The Log Day form with a date, location, start and end times, Tandem set to 3, AFF Jump set to 2, day notes and tips](../../../assets/dashboard-and-logging/log-day-form.png)
 
 1. Tap **Log Day** on the dashboard.
 2. Confirm the **Date** and **Location**.
