@@ -2,7 +2,7 @@
 title: Categories and Services
 description: How categories and services fit together, how to set up and name them, and what to avoid so your logging stays quick and your totals stay clean.
 sidebar:
-  order: 3
+  order: 20
 ---
 
 Before you log your first day, it helps to set up how your work is organized. JumpTracker Pro uses two layers, **categories** and **services**, and the names you choose show up everywhere you log. This guide explains how the two fit together and how to name them so they stay easy to scan.
