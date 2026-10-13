@@ -69,7 +69,7 @@ When naming your services, consider a few things:
 2. If you need to send an invoice with a breakdown, you'll likely want to follow the dropzone's convention.
 
 :::note
-**Restructuring a dropzone.** If you ever want to change how a dropzone is reported, you can start from scratch by adding it as a new location and archiving the old one by appending " - Archive 2024-2026" or similar to its name. You can also do this if the dropzone completely restructures how it pays for services.
+**Restructuring a dropzone.** If you ever want to change how a dropzone is reported, you can start from scratch by adding it as a new location and archiving the old one. You can also do this if the dropzone restructures how it pays for services. See [Restructure a Dropzone](/technical/restructure-a-dropzone/) for the steps.
 :::
 
 ## Put them in the order you use them
