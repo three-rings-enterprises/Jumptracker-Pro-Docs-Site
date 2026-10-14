@@ -21,9 +21,7 @@ You need Burble's **Transaction History** export. It is a CSV file with four col
 
 ![The BurbleMe Home screen with Transaction History highlighted](../../../assets/import-burble/burble-home-transaction-history.jpg)
 
-**2. Filter by date.** Tap **Filters** and choose the date range you want to import. You can import your entire burble history if you'd like.
-
-![The BurbleMe Filter screen showing the available ranges](../../../assets/import-burble/burble-filter-date-range.png)
+**2. Filter by date.** Tap **Filters** and select the period you want to import or set a custom range.
 
 **3. Keep the "All" tab selected.** 
 
