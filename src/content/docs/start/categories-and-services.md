@@ -31,7 +31,7 @@ Categories belong to a single location. If you work at more than one dropzone, e
 
 ## Add a category
 
-1. Open **Settings** and go to **Services & Categories**.
+1. Open **Settings**, expand the **Services & Rates** card, and choose your dropzone from the **Dropzone** dropdown. It opens on your default location.
 2. Tap **+ Category** (it shows as **Cat** on small screens).
 3. Type a **Category Name** and tap **Create**.
 
@@ -98,7 +98,7 @@ So a service in a category called `Jumps` doesn't count as a jump unless its typ
 
 ## A good first setup
 
-1. Open **Settings** and make sure your location is added.
+1. Open **Settings** and make sure your location is added. The **Locations** card is collapsed by default and shows your default location; tap **Show all (n)** to see the rest.
 2. Delete any starter categories you'll never use, and rename the rest to match how your dropzone talks.
 3. Add or edit services so each one has the right **Service Type** and **Base Rate**.
 4. Drag categories and services into the order you use them.

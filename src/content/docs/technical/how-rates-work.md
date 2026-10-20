@@ -16,7 +16,7 @@ Every jump you log has a dollar amount. This guide explains where that amount co
 
 ## Where rates are set
 
-Rates are set in **Settings**, under **Services & Categories**.
+Rates are set in **Settings**, under **Services & Rates**.
 
 1. Tap **Service** to add one, or **Edit** on an existing service.
 2. Enter the **Base Rate**. This is the amount a single entry of that service earns.
@@ -24,7 +24,7 @@ Rates are set in **Settings**, under **Services & Categories**.
 
 Each service belongs to one location, so the same service name at two dropzones is two separate services with two separate rates. When you add a new service, you can add it to all of your locations at once, and then adjust each location's copy on its own.
 
-In Settings, choose a location to see the current **Rates** of each of that location's services.
+In Settings, expand **Services & Rates** and pick a dropzone from the **Dropzone** dropdown (it opens on your default location) to see the current **Rates** of that location's services.
 
 ### Variable-rate services
 
