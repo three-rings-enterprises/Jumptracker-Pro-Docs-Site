@@ -15,6 +15,8 @@ JumpTracker Pro can store a start and end time on any logged day and works out y
 
 To clock your check in time when you arrive, you log a service with zero pay: a **Check in**. This locks the start time and everything else you log that day lands on the same day in your Logbook.
 
+This is also helpful if you want to know how many days you worked in a season, including weather days. When you create an invoice/report for the entire season start and end date, check-ins will make sure weather days are counted in your stats.
+
 ## Step 1: Add a Check in service
 
 You only do this once per location.
@@ -41,7 +43,7 @@ Pick whichever of these fits how you work. You can mix them during the same day.
 
 ### Scenario A: Log single jumps
 
-After each jump, open **Log New Service** and choose the service. Add any **Modifiers** that applied (in this example a dual handcam and a variable overage amount), plus **Tips** and **Service Notes** if you like.
+After each jump, open **Log Single** and choose the service. Add any **Modifiers** that applied (in this example a dual handcam and a variable overage amount), plus **Tips** and **Service Notes** if you like.
 
 ![The Log New Service screen with Jump Only selected, Dual Handcam and Overage modifiers checked, and an overage of $15.00](../../../assets/log-with-check-in/step-3-1-log-single-jump.png)
 
@@ -53,7 +55,7 @@ If you prefer to just log everything at the end of the day via the **Log Day** f
 
 ### Scenario C: Use Day Notes and import a Burble CSV afterwards
 
-If you plan to [import your Burble logbook](/technical/import-burble-logbook/) afterward, jot short notes during the day. In the day's **Day Notes** field, write one line per jump (for example, load number, altitude, jump and video details) so you can reconcile them later.
+If you plan to [import your Burble logbook](/technical/import-burble-logbook/) afterward, but still want to note your work throughout the day, jot short notes during the day in the **Day Notes** field. Use **Edit Day** from the logbook page, adding one line per jump (for example, load number, altitude, jump and video details) so you can check them later.
 
 ![The Day Notes field with two short lines of notes for two jumps](../../../assets/log-with-check-in/step-3-2-day-notes.png)
 
@@ -76,7 +78,7 @@ At the end of the day, go back to your Logbook and edit the day.
 - One Logbook entry for the day, with your start and end times and total hours.
 - Your final jump counts and earnings, plus tips and notes.
 - No extra pay from the Check in itself, since it's $0.
-- A **Summary** page that tracks your average hourly earnings as well as other metrics.
+- A **Summary** page and **Invoices** that track your average hourly earnings as well as other metrics.
 
 ## Tips
 
