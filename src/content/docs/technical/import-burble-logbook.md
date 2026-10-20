@@ -9,8 +9,8 @@ If your dropzone uses Burble to track jumps, you can export your history from Bu
 
 ## Before you start
 
-- **Set up the location in your settings:** create the location, and add the categories you'll be importing services for (e.g.:tandem, camera, aff, etc.). Don't add any services in your settings yet. They will be created and assigned a category during the import. 
-- **If you already have a location set up:** starting from scratch may make future imports much qucker. You can set up a new dropzone with a different name when you set up with the first burble import. You can leave your existing location and clean it up once you're happy with the Burble import.
+- **Set up the location in your settings:** create the location, and add the categories you'll be importing services for (e.g.:tandem, camera, aff, etc.). Don't add any services in your settings yet. They will be created during the import. 
+- **If you already have a location set up and have been logging manually:** starting from scratch may make future imports quicker. [See "For a first time setup import" for details.](#for-a-first-time-setup-import)
 - **Keep your Burble item codes as is:** if you import again later, codes you have already mapped are matched automatically. Edit the service to add a description to the info field if you want to clarify an ambiguous burble code.
 
 ## Get your file from Burble
@@ -41,20 +41,14 @@ Then follow the import wizard through the steps presented.
 
 ## For a first time setup import
 
-It's recommended to set up as a new dropzone on your first import. This will make sure all your service names map cleanly to burble's item codes, and future imports will be frictionless.
- 
-1. On the **Choose Location** screen, click **Create a new location instead**
-  
-![The Logbook page with the import menu open, showing Import CSV, Export CSV and View Import History](../../../assets/import-burble/burble-choose-location.png)
-
-2. Give the dropzone a unique name, like "Skydive Jumptracker **Burble**"
-
-![The Logbook page with the import menu open, showing Import CSV, Export CSV and View Import History](../../../assets/import-burble/burble-create-new-location.png)
-
-Then follow the import wizard through the steps presented. 
-
-3. Finish setup by reviewing your dropzone's details on the **settings** page. Add descriptions for services and configure any as variable if necessary.
-4. If you're overriding an old dropzone, clean up any logbook entries from the logbook screen by **filtering for that location**, then delete it's logs. 
+1. Go to your **settings** page and create a new location.  
+:::note
+If you've already been logging a location manually and now want to start importing via burble, it's recommended to set up as a new dropzone on your first burble import, with a unique name like "Skydive Jumptracker **Burble**". Then archive or delete the old dropzone after the import. This will make sure all your service names map cleanly to burble's item codes, and future imports will be frictionless. 
+:::
+2. Add the categories you'll be importing services for (e.g.:tandem, camera, aff, etc.). Don't create any services yet. You'll add them during the import. 
+3. Proceed with the import per the steps above.
+4. Finish setup by reviewing your dropzone's details on the **settings** page. Add descriptions for services and configure any as variable if necessary.
+5. If you're overwriting an old dropzone, clean up any logbook entries from the logbook screen by **filtering for that location**, then delete it's logs. 
 
 ## Some Notes 
 
