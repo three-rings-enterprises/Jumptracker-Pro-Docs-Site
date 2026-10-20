@@ -11,7 +11,7 @@ Categories and services belong to a location, so the approach is to archive the 
 
 ## 1. Archive the old location
 
-1. Open **Settings** and find your dropzone under **Locations**.
+1. Open **Settings** and find your dropzone under **Locations**. If it isn't the default location shown, tap **Show all (n)**.
 2. Tap **Edit**.
 3. Add a suffix to the **Location Name**, such as `Skydive Example - Archive 2024-2026`, then save.
 

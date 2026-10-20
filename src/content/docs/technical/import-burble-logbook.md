@@ -90,4 +90,4 @@ Undo removes exactly the entries that import created. Two things to know:
 
 ## What to check afterward
 
-- If this is a first time setup import, go to your **Settings** page and double check that your new services have a properly defined **service type** and are set as **variable** if necessary. You can also add a **memo** about the service for a plain text description beyond an ambiguos burble code.
+- If this is a first time setup import, open **Settings**, expand **Services & Rates**, and choose the dropzone (your new services are listed there). Double check that they have a properly defined **service type** and are set as **variable** if necessary. You can also add a **memo** about the service for a plain text description beyond an ambiguos burble code.
