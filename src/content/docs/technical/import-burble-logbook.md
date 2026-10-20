@@ -9,9 +9,9 @@ If your dropzone uses Burble to track jumps, you can export your history from Bu
 
 ## Before you start
 
-- **Set up the location during the first import:** you can add the dropzone and set up everything during the import, and the wizard guides you. This will be the cleanest and easiest way to set it up, and future imports will map automatically.
+- **Set up the location in your settings:** create the location, and add the categories you'll be importing services for (e.g.:tandem, camera, aff, etc.). Don't add any services in your settings yet. They will be created and assigned a category during the import. 
 - **If you already have a location set up:** starting from scratch may make future imports much qucker. You can set up a new dropzone with a different name when you set up with the first burble import. You can leave your existing location and clean it up once you're happy with the Burble import.
-- **Keep your Burble item codes the same:** if you import again later, codes you have already mapped are matched automatically. Use your service's info field to clarify what they are.
+- **Keep your Burble item codes as is:** if you import again later, codes you have already mapped are matched automatically. Edit the service to add a description to the info field if you want to clarify an ambiguous burble code.
 
 ## Get your file from Burble
 
