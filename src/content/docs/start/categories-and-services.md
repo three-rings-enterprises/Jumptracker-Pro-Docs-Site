@@ -43,7 +43,7 @@ Categories belong to a single location. If you work at more than one dropzone, e
 
 The new category is empty until you add a service to it. To do that:
 
-1. Still in **Settings**, tap **+ Service**.
+1. Still in **Services & Rates**, tap **+ Service**.
 2. Type a **Service Name**, then choose the related category in the **Category** field.
 3. Fill in the remaining details, paying special attention to the **Service Type**.
 
